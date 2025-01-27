@@ -1,0 +1,59 @@
+
+.verify{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+      /* min-height: 100vh; */
+
+}
+
+.verify form{
+    margin: auto;
+    padding: 1rem;
+    max-width: 30rem; 
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+      min-height: 100vh;
+    
+}
+
+.verify h1 {
+    text-align: center;
+}
+
+.verify form .verify div {
+    margin-bottom: 15px;
+}
+
+.verify label {
+    display: block;
+    margin-bottom: 5px;
+    margin-bottom: 2rem;
+}
+
+.verify input {
+    width: 100%;
+    padding: 15px 45px;
+    border: 1px solid #c4c4c4;
+    box-sizing: border-box;
+    background-color: transparent;
+    border-radius: 0.6rem;
+}
+
+.verify button {
+    padding: 18px 35px;
+  background-color: #10263d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.verify button:hover {
+    background-color: #000000;
+}

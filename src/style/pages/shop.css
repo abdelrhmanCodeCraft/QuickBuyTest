@@ -1,0 +1,91 @@
+
+
+.product .shop-head {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    gap: 5rem;
+}
+
+.product .shop-head .search-bar{
+    padding: 0.8rem 1rem;
+    border: 2px solid var(--color-primary);
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    width: 25rem;
+    align-items: center;
+    gap: 1rem;
+}
+
+.product .shop-head .search-bar input {
+  width: 100%;
+  font-size: 16px;
+  border-radius: 4px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+@media (max-width: 600px) {
+  .product .shop-head .search-bar input {
+    font-size: 14px; 
+  }
+}
+
+@media (max-width: 1024px) {
+  .product .shop-head .search-bar input {
+    font-size: 15px; 
+  }
+}
+
+
+.product .dropdown {
+    width: 25rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.product .dropdown select{
+    width: 16rem;
+    padding: 0.8rem 1rem;
+    border-radius: 2rem;
+    outline: none;
+    border: 2px solid black;
+}
+
+.product .dropdown option{
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+}
+
+
+
+.product .sort-options {
+        width: 25rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.product .sort-options select{
+    width: 16rem;
+    padding: 0.8rem 1rem;
+    border-radius: 2rem;
+    outline: none;
+    border: 2px solid black;
+}
+
+.product .sort-options option{
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+}

@@ -1,0 +1,52 @@
+
+
+.register{
+    min-height: 100vh;
+
+}
+
+.register form div {
+  margin-bottom: 15px;
+}
+
+.register .check{
+    display: block;
+    margin-bottom: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
+.register .check span{
+    color: var(--color-primary);
+}
+
+.register label {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.register input {
+  max-width: 40rem;
+  padding: 1rem 1rem;
+  border-radius: 0.4rem;
+  background-color: transparent;
+  box-sizing: border-box;
+  border: 1px solid #d3d3d3;
+}
+
+.register button {
+  padding: 18px 35px;
+  background-color: #10263d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.register button:hover {
+  background-color: #000000;
+}

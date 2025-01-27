@@ -1,0 +1,75 @@
+
+
+.products-categories .image{
+    width: 100vw;
+    height: 30rem;
+}
+
+.products-categories .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.products-categories .content {
+    display: flex;
+    justify-content: center;
+}
+
+.products-categories .content .text{
+    margin-bottom: 10rem;
+    text-align: center;
+    margin-top: -10rem;
+}
+
+.products-categories .content .text h1{
+    width: 20rem;
+    height: 20rem;
+    background-color: #292929;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.products-categories .content .products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    border-radius: 5rem 5rem 0 0;
+}
+
+.products-categories .content .products a{
+    text-decoration: none;
+}
+
+.products-categories .content .products .img{
+    width: 16rem;
+    height: 12rem;
+    overflow: hidden;
+}
+
+.products-categories .content .products .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s;
+    border-radius: 5rem 5rem 0 0;
+    margin-bottom: 5rem;
+    z-index: 100;
+}
+
+.products-categories .content .products .img img:hover{
+    transform: scale(1.1);
+}
+
+.products-categories .content .products h3{
+    text-align: center;
+    color: black;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}

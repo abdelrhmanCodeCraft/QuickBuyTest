@@ -1,0 +1,68 @@
+
+
+
+.contact .topDel{
+    background-color: #8eb18e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
+}
+
+.contact .information{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+
+.contact .information h1{
+    text-align: center;
+}
+
+.contact .information .p{
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+.contact .information .boxes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+    margin-bottom: 6rem;
+}
+
+.contact .information .boxes .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 40px;
+}
+
+
+.contact .information .boxes h2{
+    margin: auto;
+    color: var(--color-primary);
+}
+
+.contact .information .boxes .icon{
+    font-size: 3rem;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.contact .information .boxes .box p{
+    margin: auto;
+    color: gray;
+}
+
+.contact .rooms{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    flex-wrap: wrap;
+    align-items: start;
+}

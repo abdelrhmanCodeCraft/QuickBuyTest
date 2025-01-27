@@ -1,0 +1,116 @@
+
+
+.footer {
+    margin-top: 2rem;
+    /* margin-bottom: 10rem; */
+    background-color: black;
+    color: white;
+}
+
+.footer .content {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: start;
+    border-bottom: 1px solid #4e4e4e;
+}
+
+.footer .room{
+    padding: 3rem 0;
+}
+
+.footer .room h1{
+    margin-bottom: 2rem;
+}
+
+.footer .room h4{
+    font-weight: 500;
+    margin-bottom: 5rem;
+    line-height: 30px;
+}
+
+.footer .room p{
+    display: flex;
+    gap: 1rem;
+    line-height: 30px;
+    color: gray;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    transition: 0.3s;
+}
+
+.footer .room p:hover{
+    color: var(--color-primary);
+    margin-left: 0.4rem;
+    margin-top: 00.4rem;
+}
+
+.footer .room .fo-icon{
+    color: var(--color-primary);
+}
+
+.footer .room h3{
+    margin-bottom: 2.3rem;
+    font-size: 2rem;
+    margin-top: 1.3rem;
+}
+
+.footer .room .image {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 6rem;
+}
+
+.footer .room .image img{
+    width: 7rem;
+}
+
+
+.footer .content-tow {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+
+.footer .content-tow .box-number{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 2rem;
+    line-height: 20px;
+    margin-top: 0.6rem;
+    flex-wrap: wrap;
+}
+
+.footer .content-tow .box .one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.footer .box-end{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 0px;
+}
+
+.footer .box-end a{
+    padding: 0 0.5rem;
+}
+
+.footer .box-end a .icon{
+    width: 2rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+    color: black;
+    height: 2rem;
+    background-color: var(--color-primary);
+}

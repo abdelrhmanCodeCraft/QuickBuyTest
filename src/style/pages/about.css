@@ -1,0 +1,394 @@
+
+
+.about{
+    margin-bottom: 5rem;
+}
+
+.about .topDel{
+    background-color: #8eb18e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
+}
+
+.about .head{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-items: start;
+    margin-bottom: 7rem;
+    margin-top: 7rem;
+}
+
+@media screen and (max-width: 1235px) {
+    .about .head .one {
+        text-align: center;
+    }
+    .about .head .one img {
+        padding: 1rem;
+    }
+}
+
+.about .head .one {
+    max-width: 50rem;
+    display: block;
+}
+
+.about .head .one img {
+    width: 90%;
+    max-height: 50rem;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+@media screen and (max-width: 980px) {
+    .about .head .one img {
+        width: 100%;
+    }
+}
+
+
+.about .head .tow{
+    width: 39rem;
+    padding: 2rem;
+}
+
+.about .head .tow h1{
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+
+.about .head .tow p{
+    color: gray;
+    margin-bottom: 3rem;
+}
+
+.about .head .tow .images{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.about .head .tow .images img{
+    width: 11rem;
+    border-radius: 0.6rem;
+}
+
+/* ================================================ */
+
+
+.boxes-container {
+    margin-top: 50rem;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.boxes-container .content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    line-height: 60px;
+}
+
+.boxes-container h1{
+    text-align: center;
+    margin-bottom: 5rem;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.boxes-container .box {
+    background-color: #eeeeee;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px #0000001a;
+    padding: 30px;
+    width: 500px;
+    flex-grow: 1;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.boxes-container .box:hover {
+    transform: translateY(-5px);
+}
+
+.boxes-container .icon {
+    font-size: 4rem;
+    color: var(--color-primary);
+    margin-bottom: 10px;
+}
+
+.boxes-container h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.boxes-container p {
+    color: #555;
+    line-height: 30px;
+}
+
+.boxes-container .link a {
+    color: var(--color-primary);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.boxes-container .link a:hover {
+    text-decoration: underline;
+}
+
+
+.performance {
+    margin-top: 10rem;
+}
+
+.performance .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.performance .content .box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.performance .content .one{
+    max-width: 25rem;
+}
+
+.performance .content .one img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.performance .content .tow{
+    max-width: 35rem;
+}
+
+.performance .content .tow img{
+    width: 100%;
+    height: auto;
+    object-fit: cover ;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.performance .content .room{
+    width: 35rem;
+    padding: 1rem;
+}
+
+.performance .content .room h3{
+    font-size: 1.6rem;
+    color: #c9c9c9;
+}
+
+.performance .content .room h1{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #050514;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.performance .content .room p{
+    color: #afafaf;
+    line-height: 25px;
+    margin-bottom: 3rem;
+}
+
+.performance .text{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.performance .text .text-one{
+    padding: 1rem;
+    width: 25rem;
+}
+
+.performance .text .text-one h2{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #050514;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.performance .text .text-one p{
+    line-height: 25px;
+    color: #b9b9b9;
+}
+
+
+
+
+.team{
+    margin-top: 10rem;
+}
+
+.team .h1{
+    text-align: center;
+    margin-bottom: 5rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.team .content .rooms{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    align-items: start;
+}
+
+.team .content .rooms .room-one{
+    width: 30rem;
+    padding: 1rem;
+}
+
+.team .content .rooms .room-one h5{
+    color: var(--color-primary);
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.team .content .rooms .room-one h1{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #050514;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.team .content .rooms .room-one p{
+    line-height: 30px;
+    color: #969696;
+    margin-bottom: 2rem;
+}
+
+.team .content .rooms .room-one button{
+    padding: 0.9rem 1.8rem; 
+    background-color: var(--color-primary);
+    border: none;
+    font-weight: 600;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.team .content .rooms .room-one button:hover{
+    background-color: #08bdbd;
+}
+.team .rooms .room-tow .one {
+    max-width: 25rem;
+    position: relative;
+}
+
+.team .rooms .room-tow,
+.team .rooms .room-three{
+    padding: 1rem;
+}
+
+.team .rooms .room-tow .one img {
+    width: 100%;
+    position: relative;
+    border-radius: 1rem;
+    z-index: 1;
+}
+
+.team .rooms .room-tow .box {
+    background-color: white;
+    width: 20rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 5px 20px #e2e2e2;
+    margin: auto;
+    margin-top: -7rem;
+    position: relative;
+    text-align: center;
+    z-index: 10;
+}
+
+.team .rooms .room-tow .box p{
+    color: gray;
+    margin-bottom: 1.5rem;
+}
+
+.team .rooms .room-tow .box .social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3rem;
+}
+
+.team .rooms .room-tow .box .social .icon{
+    color: var(--color-primary);
+    cursor: pointer;
+}
+
+
+
+.team .rooms .room-three .one {
+    max-width: 26.8rem;
+    position: relative;
+}
+
+.team .rooms .room-three .one img {
+    width: 100%;
+    position: relative;
+    border-radius: 1rem;
+    z-index: 1;
+}
+
+.team .rooms .room-three .box {
+    background-color: white;
+    width: 20rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 5px 20px #e2e2e2;
+    margin: auto;
+    margin-top: -7rem;
+    position: relative;
+    text-align: center;
+    z-index: 10;
+}
+
+.team .rooms .room-three .box p{
+    color: gray;
+    margin-bottom: 1.5rem;
+}
+
+.team .rooms .room-three .box .social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3rem;
+}
+
+.team .rooms .room-three .box .social .icon{
+    color: var(--color-primary);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.team .rooms .room-three .box .social .icon:hover{
+    color: black;
+}
+

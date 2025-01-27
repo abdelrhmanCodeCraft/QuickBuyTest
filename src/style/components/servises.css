@@ -1,0 +1,45 @@
+
+
+
+.servises{
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+}
+
+.servises .content{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.servises .content .room{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    width: 20rem;
+    padding: 1rem;
+    gap: 1rem;
+    /* background-color: white; */
+    box-shadow: inset 1px 1px 5px 1px #c5c5c5;
+    border-radius: 0.3rem;
+    
+}
+
+.servises .content .room:hover .serv-icon{
+    margin-top: -1rem;
+}
+
+.servises .content .room h2{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.servises .content .room .serv-icon{
+    font-size: 4rem;
+    color: var(--color-primary);
+    transition: 0.3s;
+}
