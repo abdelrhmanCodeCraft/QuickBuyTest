@@ -1,6 +1,5 @@
 # Create a README.md file with the provided content
 
-readme_content = """
 # QuickBuy
 
 QuickBuy is a comprehensive e-commerce website built using React and Redux. It provides a seamless online shopping experience with multiple features and API integration.
